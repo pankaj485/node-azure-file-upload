@@ -4,7 +4,7 @@ import { apiV1AppRoute } from "./routes/v1/app.route";
 
 const app: Express = express();
 app.use(express.json());
-const PORT = 3000;
+const PORT = 7000;
 
 type GlobalCatchMiddleware = (
   err: Error,
