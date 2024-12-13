@@ -8,5 +8,6 @@ const blobController = new BlobController();
 
 router.get("/", sayHello);
 router.post("/file-upload", blobController.uploadFile);
+router.get("/list-files", blobController.getBlobs);
 
 export { router as apiV1AppRoute };
